@@ -1,0 +1,842 @@
+body {
+    color: #5E5E5E;
+    font-family: Montserrat;
+}
+
+.body-container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.main {
+    width: 100%;
+    height: 1000px;
+    background: url(../images/backgrounds/bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.main-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-top: 55px;
+}
+
+.main-logo {
+    padding-bottom: 50px;
+}
+
+.main-logo-image {}
+
+.main-logo-img {
+    padding-left: 13px;
+    padding-bottom: 10px;
+    width: 85px;
+    height: 85px;
+}
+
+.main-logo-title {}
+
+.main-title {
+    font-size: 48px;
+}
+
+.main-desc {
+    padding-top: 10px;
+    padding-bottom: 65px;
+    width: 410px;
+    font-weight: bold;
+}
+
+.bold-span {}
+
+.main-button {
+    display: block;
+    width: 350px;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #FFF;
+    background: #59bcb3;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.main-banner {
+    display: flex;
+    justify-content: flex-end;
+
+    
+}
+
+.banner-border-main {
+    padding: 15px;
+    background: #FFF;
+    border-radius: 25px;
+    margin-top: 100px;
+}
+
+.main-banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 150px;
+    height: 200px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #FFF;
+    border: 2px dashed #F98784;
+}
+
+.main-banner-icon {
+    fill: #59bcb3;
+    width: 35px;
+}
+
+.main-banner-text {
+    text-align: center;
+    font-weight: 18px;
+}
+
+.banner-span {
+    color: #59bcb3;
+    font-weight: 500;
+}
+
+.specs {}
+
+.specs-container {}
+
+.section-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.specs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 630px;
+    margin: auto;
+}
+
+.specs-list-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 24px;
+}
+
+.specs-list-item-icon {
+    fill: #59bcb3;
+}
+
+.specs-list-item-text {}
+
+.params {}
+
+.params-container {}
+
+.params-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.params-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: #f7f7f7;
+    text-align: center;
+
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.39);
+    -moz-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.39);
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.39);
+
+    transition: transform 300ms ease-out;
+
+    &:hover {
+        transform: translate(0px, 0px) scale(1.1);
+    }
+}
+
+.params-card-image {
+    width: 100px;
+    height: 100px;
+    background: url(../images/icons/params/search-light.svg) no-repeat;
+}
+
+#p-c-2 {
+    background: url(../images/icons/params/paper.svg) no-repeat;
+}
+
+#p-c-3 {
+    background: url(../images/icons/params/pencil.svg) no-repeat;
+}
+
+.params-card-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.params-card-desc {
+    width: 220px;
+}
+
+#button-2 {
+    margin: auto;
+}
+
+.params-caption {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.work {}
+
+.work-container {}
+
+#button-3 {
+    margin: auto;
+    margin-top: 25px;
+}
+
+.banner {}
+
+.banner-container {}
+
+.banner-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 25px;
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.39);
+    -moz-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.39);
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.39);
+}
+
+.banner-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    
+}
+
+.banner-card-img {
+    width: 95px;
+    height: 95px;
+    padding-bottom: 10px;
+}
+
+.banner-card-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner-card-desc {
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.banner-card-span {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.collective {}
+
+.collective-container {}
+
+.collective-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.collective-group-item {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.group-item-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: #000;
+    border: 3px solid #59bcb3;
+    transition: transform 300ms ease-out;
+
+    &:hover {
+        transform: translate(0px, 0px) scale(1.1);
+    }
+}
+
+#c-g-1 {
+    background-image: url(../images/collective/valentina.jpg);
+    background-size: cover;
+}
+
+#c-g-2 {
+    background-image: url(../images/collective/vera.jpg);
+    background-size: cover;
+}
+
+#c-g-3 {
+    background-image: url(../images/collective/anna.jpg);
+    background-size: cover;
+}
+
+.group-item-title {
+    width: 220px;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #FFF;
+    background: #F98784;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.39);
+    -moz-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.39);
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.39);
+}
+
+.plans {}
+
+.plans-container {}
+
+.plans-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.plans-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    width: 320px;
+    height: 420px;
+    border-radius: 25px;
+    background-color: #f7f7f7;
+    text-align: center;
+
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.39);
+    -moz-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.39);
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.39);
+}
+
+#pp-c-1 {
+    height: 400px;
+}
+
+#pp-c-2 {
+    width: 320px;
+}
+
+#pp-c-3 {
+    height: 400px;
+}
+
+.plans-card-border {}
+
+.plans-card-img {
+    width: 150px;
+    height: 150px;
+}
+
+.plans-card-title {
+    font-size: 18px;
+}
+
+.plans-card-price {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+.plans-card-price-main {
+    font-weight: bold;
+    font-size: 42px;
+    color: #59bcb3;
+    padding-bottom: 25px;
+}
+
+.plans-card-button {
+    padding: 15px;
+    border-radius: 25px;
+    color: #FFF;
+    background: #59bcb3;
+}
+
+.submition {
+    border-radius: 35px;
+    color: #FFF;
+    background: #F98784;
+}
+
+.submition-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-tile {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.submit-desc {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.sumbit-form {
+    margin: auto;
+}
+
+.name-input {
+    font-size: 14px;
+    padding-left: 35px;
+    width: 220px;
+    height: 60px;
+    border-radius: 35px;
+    background: #FFF;
+}
+
+.submit-button {
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 35px;
+    text-align: center;
+    color: #FFF;
+    background: #59bcb3;
+    width: 220px;
+    height: 60px;
+}
+
+.submit-whatsapp-link {
+    color: #FFF;
+    text-decoration: underline;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.submit-whatsapp-link-text {}
+
+.submit-whatsapp-link-icon {
+    width: 55px;
+}
+
+.s-c-bg {
+    margin-bottom: 80px;
+}
+
+footer {
+    color: #FFF;
+    background: #59bcb3;
+}
+
+.footer-container {
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-desc {}
+
+.footer-logo {
+    width: 90px;
+    height: 90px;
+}
+
+.itemz {
+    width: 350px;
+    height: 300px;
+    background-color: #000;
+}
+
+.home-demo .item {
+    background: black;
+    
+}
+
+.home-demo h2 {
+    color: #FFF;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+.owl-carousel .owl-stage-outer {
+    padding-bottom: 25px;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+    &:hover {
+        color:#000;
+        background: none;
+    }
+}
+
+.home-demo .item {
+    background: black;
+    
+}
+
+.home-demo h2 {
+    color: #FFF;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+.owl-carousel .owl-stage-outer {
+    padding-bottom: 25px;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+    &:hover {
+        color:#000;
+        background: none;
+    }
+}
+
+/* Макет для десктопов */
+@media only screen and (min-width: 280px) and (max-width: 359px) {
+    .submition {
+        width: 260px;
+        margin: auto;
+    }
+    .body-container {
+        max-width: 280px;
+    }
+    .footer-container {
+        max-width: 280px;
+    }
+    .main-container {
+        max-width: 280px;
+    }
+    .main-logo, .main-desc, .main-title, .footer-desc {
+        margin-left: 10px;
+    }
+    .params-cards {
+        flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    }
+    .plans-cards {
+        flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    }
+    .plans-card {
+        width: 260px;
+    }
+    #pp-c-2 {
+        width: 260px;
+    }
+    .params-card {
+        width: 260px;
+    }
+    .main-banner {
+        justify-content: center;
+    }
+    .collective-group {
+        flex-direction: column;
+    gap: 25px;
+    }
+    .sumbit-form {
+        flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    }
+    .submit-button {
+        width: 255px;
+    }
+    .main-desc {
+        width: 200px;
+    }
+    .main-button {
+        width: 250px;
+        margin: auto;
+    }
+    .specs-list {
+        width: 260px;
+    }
+    .main-title {
+        font-size: 24px;
+    }
+    .submit-whatsapp-link {
+        width: 230px;
+    }
+    .submit-desc {
+        width: 255px;
+    }
+    .banner-cards {
+        flex-direction: column;
+        width: 260px;
+    margin: auto;
+    align-items: center;
+    }
+    .footer-logo {
+        display: none;
+    }
+    .section-title {
+        font-size: 24px;
+    }
+    .banner-card {
+
+        width: 260px;
+    }
+    .main {
+        background-position-x: -565px;
+    }
+    .main-button {
+        width: 200px;
+    font-size: 14px;
+    padding: 10px;
+    }
+    .name-input {
+        width: 200px;
+    }
+    .submit-button {
+
+        width: 230px;
+    }
+    .submit-tile {
+        font-size: 20px;
+    }
+}
+
+/* Макет для десктопов */
+@media only screen and (min-width: 360px) and (max-width: 799px) {
+    .name-input {
+        width: 200px;
+    }
+    .submit-button {
+
+        width: 230px;
+    }
+    .submition {
+        width: 300px;
+        margin: auto;
+    }
+    .main-button {
+        width: 200px;
+    font-size: 14px;
+    padding: 10px;
+    }
+    .footer-logo {
+        display: none;
+    }
+    .body-container {
+        max-width: 340px;
+    }
+    .section-title {
+        font-style: 24px;
+    }
+    .footer-container {
+        max-width: 340px;
+    }
+    .main-container {
+        max-width: 800px;
+        margin-left: 20px;
+    }
+    .params-cards {
+        flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    }
+    .plans-cards {
+        flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    }
+    .plans-card {
+        width: 300px;
+    }
+    .main-banner {
+        justify-content: flex-start;
+    }
+    .params-card {
+        width: 300px;
+    }
+    .collective-group {
+        flex-direction: column;
+    gap: 25px;
+    }
+    .sumbit-form {
+        flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    }
+    .submit-tile {
+        font-size: 20px;
+    }
+    .main-desc {
+        width: 200px;
+    }
+    .main-button {
+        width: 250px;
+        margin-left: 10px;
+    }
+    .specs-list {
+        width: 260px;
+    }
+    .main-title {
+        font-size: 24px;
+    }
+    .submit-whatsapp-link {
+        width: 260px;
+    }
+    .submit-desc {
+        width: 300px;
+    }
+    .banner-cards {
+        flex-direction: column;
+        width: 260px;
+    margin: auto;
+    align-items: center;
+    }
+    .section-title {
+        font-style: 24px;
+    }
+    .main {
+        background-position-x: -491px;
+    }
+}
+
+/* Макет для десктопов */
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+    .body-container {
+        max-width: 600px;
+    }
+    .footer-container {
+        max-width: 600px;
+    }
+    .main-container {
+        max-width: 800px;
+        margin-left: 30px;
+    }
+    .params-cards {
+        flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    }
+    .plans-cards {
+        flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    }
+    .main-banner {
+        justify-content: flex-start;
+    }
+    .collective-group {
+        flex-direction: column;
+    gap: 25px;
+    }
+    .main {
+        background-position-x: -243px;
+    }
+    .sumbit-form {
+        flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    }
+    .submit-button {
+        width: 255px;
+    }
+}
+
+
+/* Макет для десктопов */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .body-container {
+        max-width: 800px;
+    }
+    .footer-container {
+        max-width: 800px;
+    }
+    .main-container {
+        max-width: 800px;
+    }
+    .params-cards {
+        flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    }
+    .plans-card {
+        width: 250px;
+    }
+    #pp-c-2 {
+        width: 280px;
+    }
+    .main {
+        background-position-x: -114px;
+    }
+    .plans-cards {
+    align-items: center;
+    gap: 25px;
+    }
+    .main-banner {
+        justify-content: flex-start;
+    }
+}
+
+/* Макет для десктопов */
+@media only screen and (min-width: 1440px) {}
